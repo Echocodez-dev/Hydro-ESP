@@ -1,3 +1,13 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Loaded", -- Required
+	Text = "Hydro ESP Has Loaded!", -- Required
+})
+
+
+
+
+
+
 -- Create the GUI
 local player = game.Players.LocalPlayer
 local screenGui = Instance.new("ScreenGui")
